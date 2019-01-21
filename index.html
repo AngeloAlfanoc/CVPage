@@ -33,30 +33,48 @@
 <body class='bodyload '>
 	<div class="preloader"></div>
 	<article class='resume-wrapper text-center'>
+		<div id="contact-area">
+			
+			<form method="post" action="contactengine.php">
+				<label for="Name">Naam:</label>
+				<input type="text" name="Name" id="Name" />
+	
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" />
+				
+				<label for="Message">Vraag:</label><br />
+				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+				<input type="submit" name="submit" value="Submit" class="submit-button" />
+			</form>
+			
+			<div style="clear: both;"></div>
+			<div class="closeBut">close x</div>
+			
+		
+		</div>
 		<div class='resume-wrapper-inner mx-auto text-left bg-white shadow-lg'>
 			<header class='resume-header py-5 pt-md-0'>
 				<div class='media flex-column flex-md-row'>
 					<img class='mb-5 img-fluid picture mx-auto' src='assets/images/profile.jpg' width='10%' alt=''>
 					<div class='media-body p-4 d-flex flex-column flex-md-row mx-auto
                      mx-lg-0'>
-						<div class='primary-info'>
+						<div class='primary-info mt-5 ml-5'>
 							<h1 class='name mt-0 mb-1 text-white text-uppercase text-uppercase'>Alfano
 								Angelo
 							</h1>
 							<div class='title mb-4'>Full Stack Developer / Graphic Designer</div>
-							<ul class='list-unstyled'>
-								<li class='mb-2'>
-									<a href='#'> <i class='far fa-envelope fa-fw mr-2' data-fa-transform='grow-3'></i> alfanoangeloc@gmail.com
-									</a>
-								</li>
-								<li class='mb-2'>
-									<a href='#'> <i class='fas fa-mobile-alt fa-fw mr-2' data-fa-transform='grow-6'></i> +32 468273700</a>
-								</li>
-							</ul>
+
 						</div>
 						<!-- //primary-info -->
-						<div class='secondary-info ml-md-auto mt-2 mr-5'>
+						<div class='secondary-info ml-md-auto mt-4 mr-5'>
 							<ul class='resume-social list-unstyled mr-5'>
+								<li class='mb-1 py-1'>
+									<a id='contact' href='#'> <span class='fa-container text-center mr-2'>
+											<i class="fas fa-at"></i>
+										</span> Contact
+									</a>
+								</li>
 								<li class='mb-1 py-1'>
 									<a href='linkedin.com/in/angeloalfano1992/'> <span class='fa-container text-center mr-2'>
 											<i class='fab fa-linkedin-in'></i>
@@ -73,13 +91,7 @@
 								<li class='mb-1 py-1'>
 									<a href='#' id='education'> <span class='fa-container text-center mr-2'>
 											<i class='fas fa-list-alt'></i>
-										</span> Career / Education</a>
-								</li>
-								<li class=' py-1'>
-									<a href='#projects'> <span class='fa-container text-center mr-2'>
-											<i class='fas fa-project-diagram'></i>
-										</span> Projects
-									</a>
+										</span> Leertraject</a>
 								</li>
 
 							</ul>
@@ -154,16 +166,10 @@
 									Als GIP Project voor het laatste jaar maakt ik dus ook een volledige huisstijl genaamd Kinetix. Dit was een
 									energie drank dat iets soortgelijk was aan Nalu, een fruitige energie drank. </small></p>
 						</div>
-
-						<button class="accordion">Communicatie & Multimedia Design
-							<br><small>2011-2012</small> </button>
-						<div class="panel">
-							<p>Lorem ipsum...</p>
-						</div>
 						<button class="accordion">Product Design
 							<br> <small>2013-2014</small> </button>
 						<div class="panel">
-							<p>Lorem ipsum...</p>
+							<p></p>
 						</div>
 					</div>
 				</section>
@@ -556,29 +562,7 @@
 				</div>
 				<!-- //row -->
 			</div>
-			<div class='shadow-lg' id='projects'>
-				<section>
-					<div class="bg-portfolio">
-						<div class="row py-4">
-							<div id='slider'>
-								<ul class='slides'>
-									<li class='slide'><img src="https://dummyimage.com/1100x400/fff/aaa"></li>
-									<li class='slide'><img src="https://dummyimage.com/1100x400/fff/aaa"></li>
-									<li class='slide'><img src="https://dummyimage.com/1100x400/fff/aaa"></li>
-									<li class='slide'><img src="https://dummyimage.com/1100x400/fff/aaa"></li>
-								</ul>
-							</div>
-							<div class="row mx-auto py-5">
-								<div class='col-md-3'><img src="https://dummyimage.com/200x200/fff/aaa"></div>
-								<div class='col-md-3'><img src="https://dummyimage.com/200x200/fff/aaa"></div>
-								<div class='col-md-3'><img src="https://dummyimage.com/200x200/fff/aaa"></div>
-								<div class='col-md-3'><img src="https://dummyimage.com/200x200/fff/aaa"></div>
-							</div>
-						</div>
 
-					</div>
-				</section>
-			</div>
 			<!-- //resume-body -->
 		</div>
 	</article>

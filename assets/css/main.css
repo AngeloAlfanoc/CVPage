@@ -9692,7 +9692,7 @@ body {
 .resume-header {
   background: #00688C;
   color: rgba(255, 255, 255, 0.9);
-  height: 220px;
+  height: 227px;
 }
 
 .resume-header .picture {
@@ -9903,25 +9903,51 @@ footer a {
   overflow: hidden;
 }
 
-#slider {
-  width: 1100px;
-  height: 400px;
-  overflow: hidden;
+#contact-area {
+  padding: 3%;
+  left: 25vw;
+  top: 5vh;
+  z-index: 1;
+  position: absolute;
+  background: #fff;
+  width: 600px;
+  height: 500px;
+  border: 1px solid #434E5E;
 }
 
-#slider .slides {
-  display: block;
-  width: 6000px;
-  height: 400px;
-  margin: 0;
-  padding: 0;
+#contact-area input, #contact-area textarea {
+  padding: 5px;
+  width: 471px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.4em;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #ccc;
 }
 
-#slider .slide {
+#contact-area textarea {
+  height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+  border: 1px solid #900;
+}
+
+#contact-area input.submit-button {
+  width: 100px;
+  float: right;
+}
+
+label {
   float: left;
-  list-style-type: none;
-  width: 1100px;
-  height: 400px;
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  padding-top: 5px;
+  font-size: 1.4em;
+}
+
+.closeBut {
+  float: right;
 }
 
 @media (max-width: 767.98px) {

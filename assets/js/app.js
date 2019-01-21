@@ -16,11 +16,21 @@ $acc = $('.accordion');
 $portSect = $('#portfolioSection')
 $portLink = $('#portfolioLink')
 $sliding = $('.slides')
+$modalContact = $('#contact-area')
+$contact = $('#contact')
+$closeButton = $('#closeButton')
 
-//slider options
-  currentSlide = 0;
-  width = 1100;
-  generalAnimSpeed = 4000;
+$modalContact.toggle()
+$contact.click(function (e) { 
+  $modalContact.fadeToggle()
+  e.preventDefault();
+  
+});
+$closeButton.click(function (e) { 
+  $modalContact.fadeToggle()
+  e.preventDefault();
+  
+});
 
 
   //Als er geklikt wordt op educatie of meer dan opent er zich een submenu
@@ -54,40 +64,8 @@ $sliding = $('.slides')
   }
 
 
-  //Bottom Pagina Portfolio slider
 
-  setInterval(function () {
-    toTheLeft();
-    if (currentSlide == 4) {
-      currentSlide = 0;
-      if (currentSlide == 0) {
-        resetAnimation()
-      }
 
-    }
-  }, generalAnimSpeed);
-
-  function resetAnimation() {
-    $sliding.animate({
-      'margin-left': '+=' + width * 4
-    }, 1000)
-  }
-
-  function toTheLeft() {
-    $sliding.animate({
-      'margin-left': '-=' + width
-    }, 1000)
-    currentSlide++
-  }
-/*
-  function toTheRight() {
-    $sliding.animate({
-      'margin-left': '+=' + width
-    }, 1000)
-    currentSlide--
-  }
-  
-  */
   //Vanilla 
   let i;
   for (i = 0; i < $acc.length; i++) {
