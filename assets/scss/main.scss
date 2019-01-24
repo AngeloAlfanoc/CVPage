@@ -51,13 +51,16 @@ body {
 
 .resume-wrapper-inner {
 	max-width: 1000px;
+	margin-top:3vh;
 
 }
 
 .resume-header {
+	
 	background: $theme-color-primary;
 	color: rgba(256, 256, 256, 0.9);
 	height: 227px;
+
 
 	.picture {
 		transform: scaleX(-1);
@@ -258,7 +261,7 @@ footer {
 	border-radius: 3px;
 	background-color: #eee;
 	color: #444;
-	cursor: hand;
+	cursor: pointer;
 	padding: 18px;
 	width: 100%;
 	text-align: left;
@@ -332,7 +335,12 @@ label {
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
+	.primary-info {
+		margin-top:-10%;
+	}
 	.resume-wrapper {
+		margin-left:2vw;
+		margin-right:2vw;
 		padding-top: 0;
 	}
 

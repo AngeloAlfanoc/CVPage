@@ -9687,6 +9687,7 @@ body {
 
 .resume-wrapper-inner {
   max-width: 1000px;
+  margin-top: 3vh;
 }
 
 .resume-header {
@@ -9878,7 +9879,7 @@ footer a {
   border-radius: 3px;
   background-color: #eee;
   color: #444;
-  cursor: hand;
+  cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;
@@ -9951,7 +9952,12 @@ label {
 }
 
 @media (max-width: 767.98px) {
+  .primary-info {
+    margin-top: -10%;
+  }
   .resume-wrapper {
+    margin-left: 2vw;
+    margin-right: 2vw;
     padding-top: 0;
   }
   .resume-header {

@@ -15,22 +15,6 @@ $edu = $('#education')
 $acc = $('.accordion');
 $portSect = $('#portfolioSection')
 $portLink = $('#portfolioLink')
-$sliding = $('.slides')
-$modalContact = $('#contact-area')
-$contact = $('#contact')
-$closeButton = $('#closeButton')
-
-$modalContact.toggle()
-$contact.click(function (e) { 
-  $modalContact.fadeToggle()
-  e.preventDefault();
-  
-});
-$closeButton.click(function (e) { 
-  $modalContact.fadeToggle()
-  e.preventDefault();
-  
-});
 
 
   //Als er geklikt wordt op educatie of meer dan opent er zich een submenu
@@ -53,8 +37,8 @@ $closeButton.click(function (e) {
 
 
   //function als menu item active is dan kan div open gaan.
-  let subMenuList = $('.submenuList li')
-  subMenuList.click(function () {
+  let $subMenuList = $('.submenuList li')
+  $subMenuList.click(function () {
     itemActiveMenu()
   });
 
