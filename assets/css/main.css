@@ -9812,7 +9812,7 @@ body {
 }
 
 .resume-skill-name {
-  font-size: 0.8125rem;
+  font-size: 1rem;
   color: #434E5E;
 }
 
@@ -9829,27 +9829,12 @@ body {
   font-size: 0.875rem;
 }
 
-.resume-award-icon {
-  left: 0;
-  top: 4px;
-  color: #aab4c3;
-}
-
-.resume-award-name {
-  font-weight: bold;
-  color: #434E5E;
-}
-
 .resume-award-desc {
   font-size: 0.875rem;
 }
 
 .resume-lang-name {
   color: #434E5E;
-}
-
-.footer .fa-heart {
-  color: #fb866a;
 }
 
 .hidden {
@@ -9902,53 +9887,6 @@ footer a {
   background-color: white;
   display: none;
   overflow: hidden;
-}
-
-#contact-area {
-  padding: 3%;
-  left: 25vw;
-  top: 5vh;
-  z-index: 1;
-  position: absolute;
-  background: #fff;
-  width: 600px;
-  height: 500px;
-  border: 1px solid #434E5E;
-}
-
-#contact-area input, #contact-area textarea {
-  padding: 5px;
-  width: 471px;
-  font-family: Helvetica, sans-serif;
-  font-size: 1.4em;
-  margin: 0px 0px 10px 0px;
-  border: 1px solid #ccc;
-}
-
-#contact-area textarea {
-  height: 90px;
-}
-
-#contact-area textarea:focus, #contact-area input:focus {
-  border: 1px solid #900;
-}
-
-#contact-area input.submit-button {
-  width: 100px;
-  float: right;
-}
-
-label {
-  float: left;
-  text-align: right;
-  margin-right: 15px;
-  width: 100px;
-  padding-top: 5px;
-  font-size: 1.4em;
-}
-
-.closeBut {
-  float: right;
 }
 
 @media (max-width: 767.98px) {
