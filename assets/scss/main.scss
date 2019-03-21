@@ -29,7 +29,9 @@ body {
 	color: $theme-text-color-primary;
 
 }
-
+.small {
+	font-size: 100%;
+}
 .theme-bg-primary {
 	background-color: $theme-color-primary;
 }

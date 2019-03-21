@@ -5178,6 +5178,7 @@ input[type="button"].btn-block {
 .badge-light {
   color: #212529;
   background-color: #f8f9fa;
+  font-size:12px;
 }
 
 .badge-light[href]:hover, .badge-light[href]:focus {
